@@ -1,0 +1,14 @@
+
+.curved-text span {
+    display: inline-block;
+    transform-origin: bottom center;
+}
+
+/* Aplicar rotaciones para cada letra */
+.curved-text span:nth-child(1) { transform: rotate(-15deg); }
+.curved-text span:nth-child(2) { transform: rotate(-10deg); }
+.curved-text span:nth-child(3) { transform: rotate(-5deg); }
+.curved-text span:nth-child(4) { transform: rotate(0deg); }
+.curved-text span:nth-child(5) { transform: rotate(5deg); }
+.curved-text span:nth-child(6) { transform: rotate(10deg); }
+.curved-text span:nth-child(7) { transform: rotate(15deg); }

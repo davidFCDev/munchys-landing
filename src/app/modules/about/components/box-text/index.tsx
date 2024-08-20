@@ -3,8 +3,8 @@ import React from "react";
 const BoxText = () => {
   return (
     <div className="bg-black bg-opacity-60 text-white p-16 w-[40%] text-justify flex flex-col gap-4">
-      <h3 className="text-4xl font-semibold text-white font-patrick">
-        De <span className="text-terciary">Puzzle</span> Madrid a{" "}
+      <h3 className="text-4xl font-semibold text-white font-kabouter">
+        De <span className="text-secondary">Puzzle</span> Madrid a{" "}
         <span className="text-primary">Munchys</span> Arrecife
       </h3>
       <p className="leading-loose font-light">

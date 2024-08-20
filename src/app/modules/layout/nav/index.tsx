@@ -47,8 +47,8 @@ const Nav = () => {
           <Image
             src="/logo-munchys.png"
             alt="logo principal"
-            width={180}
-            height={100}
+            width={150}
+            height={150}
           />
         </a>
       </div>
@@ -69,9 +69,11 @@ const Nav = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="#" className="text-4xl hover:text-terciary">
-          <FaInstagram />
-        </a>
+        <div className="tooltip tooltip-left tooltip-warning p-2" data-tip="¡Síguenos!">
+          <a href="#" className="text-4xl">
+            <FaInstagram />
+          </a>
+        </div>
       </div>
     </div>
   );

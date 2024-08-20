@@ -29,7 +29,7 @@ const Carrousel = () => {
             className="transition-all duration-300"
           />
           {selected === index && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 font-kabouter tracking-widest">
               <span className="text-white text-4xl font-bold border-b-secondary border-b-4">
                 {image.label}
               </span>

@@ -17,10 +17,10 @@ const LinkCard: React.FC<LinkCardProps> = ({ href, title, icon, description, sub
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-neutral-100 rounded-md border text-black p-10 w-full h-64 flex flex-col gap-5 justify-between"
+      className="bg-neutral-100 rounded-md border text-neutral-800 p-10 w-full h-64 flex flex-col gap-5 justify-between"
     >
       <div className="text-5xl font-bold flex items-center justify-between">
-        <h2 className="font-patrick text-5xl">{title}</h2>
+        <h2 className="font-kabouter text-5xl">{title}</h2>
         {icon}
       </div>
       <div className="flex items-center justify-between">

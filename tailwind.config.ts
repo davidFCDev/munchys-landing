@@ -24,7 +24,9 @@ const config: Config = {
       },
       fontFamily:{
         roboto: "Roboto, sans-serif",
-        patrick: "Patrick Hand, cursive"
+        kabouter: ['Kabouter', 'sans-serif'],
+        blackCoffee: ['BlackCoffee', 'sans-serif'],
+        milkyCoffee: ['MilkyCoffee', 'sans-serif'],
       },
       colors:  {
         terciary: "#FFE398",
@@ -36,8 +38,8 @@ const config: Config = {
     themes: [
       {
         mytheme: {
-          primary: "#29A0F0",
-          secondary: "#FFD153",
+          primary: "#3596C9",
+          secondary: "#FFA400",
           accent:"#1073B5",
           neutral: "#3d4451",
           "base-100": "white",
