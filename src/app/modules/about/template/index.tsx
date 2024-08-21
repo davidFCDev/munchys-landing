@@ -5,11 +5,11 @@ import BoxText from "../components/box-text";
 const AboutTemplate = () => {
   return (
     <div className="flex flex-col w-full items-center justify-center">
-      <header className="w-full bg-primary text-white flex flex-col gap-4 items-center py-10 z-20 tracking-wider">
-        <h1 className="text-7xl font-semibold font-kabouter">
+      <header className="w-full bg-primary text-white flex flex-col gap-4 items-center py-6 small:py-10 z-20 tracking-wider text-center">
+        <h1 className="text-4xl small:text-7xl font-semibold font-kabouter">
           ¿<span className="text-secondary border-text">Qué</span> es Munchys?
         </h1>
-        <h4 className="text-lg font-light">
+        <h4 className="text-sm small:text-lg font-light max-w-56 small:max-w-full">
           Tu punto de encuentro favorito en Arrecife
         </h4>
       </header>

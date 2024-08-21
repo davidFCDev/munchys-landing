@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="w-full bg-primary text-white flex flex-col items-center py-10 text-center">
+    <header className="w-full bg-primary text-white flex flex-col items-center py-6 small:py-10 text-center">
       <h3 className="text-base font-semibold text-neutral-800 uppercase -tracking-wider">
         Brunchea en Munchys
       </h3>
@@ -14,13 +14,13 @@ const Header = () => {
         <a
           href="https://drive.google.com/file/d/1tAd8rx_2ZHXAVq4BbGUm9kgke6-v4F2R/view?usp=sharing"
           target="_blank"
-          className="px-5 py-3 bg-neutral-800 hover:bg-neutral-700 font-semibold text-lg rounded-full"
+          className="px-4 small:px-5 py-2 small:py-3 bg-neutral-800 hover:bg-neutral-700 font-semibold text-base small:text-lg rounded-full"
         >
           Menú
         </a>
         <Link
-          href={"/menu"}
-          className="px-5 py-3 border border-white hover:border-neutral-800 hover:text-neutral-800 transition ease-in-out font-semibold text-lg rounded-full"
+          href={"/gallery"}
+          className="px-4 small:px-5 py-2 small:py-3 border border-white hover:border-neutral-800 hover:text-neutral-800 transition ease-in-out font-semibold text-base small:text-lg rounded-full"
         >
           Galería
         </Link>

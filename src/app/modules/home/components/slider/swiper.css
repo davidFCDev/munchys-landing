@@ -26,13 +26,26 @@
 .swiper-button-next,
 .swiper-button-prev {
   color: rgba(255, 255, 255, 0.719);
-  width: 30px; /* ajusta el tamaño según sea necesario */
-  height: 30px; /* ajusta el tamaño según sea necesario */
+  width: 30px;
+  height: 30px;
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 30px; /* ajusta el tamaño según sea necesario */
+  font-size: 30px;
+}
+
+@media (max-width: 764px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 20px;
+    height: 20px;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 20px;
+  }
 }
 
 .swiper-button-next:hover,

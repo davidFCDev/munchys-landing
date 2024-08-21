@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 const Nav = () => {
   return (
-    <div className="navbar bg-primary z-30 border-b-2 border-b-white px-10 text-white font-roboto">
+    <div className="navbar bg-primary z-30 border-b-2 border-b-white px-6 small:px-10 text-white font-roboto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,7 +27,7 @@ const Nav = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
+            className="menu menu-sm dropdown-content bg-primary z-50 mt-3 w-52 p-2 border-b border-r border-l tracking-wide flex flex-col gap-1 rounded-b-md "
           >
             <li>
               <Link href="/">Inicio</Link>
@@ -45,7 +45,7 @@ const Nav = () => {
         </div>
         <a href="/">
           <Image
-            src="/logo-munchys.png"
+            src="/images/logo-munchys.png"
             alt="logo principal"
             width={150}
             height={150}
@@ -69,7 +69,10 @@ const Nav = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <div className="tooltip tooltip-left tooltip-warning p-2" data-tip="¡Síguenos!">
+        <div
+          className="tooltip tooltip-left tooltip-warning p-2"
+          data-tip="¡Síguenos!"
+        >
           <a href="#" className="text-4xl">
             <FaInstagram />
           </a>

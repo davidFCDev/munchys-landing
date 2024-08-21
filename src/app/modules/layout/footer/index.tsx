@@ -13,12 +13,11 @@ const Footer = () => {
 
   return (
     <div
-      id="footer"
-      className="flex flex-col items-center bg-neutral-900 text-neutral-100 py-10 gap-32"
+      className="w-full flex flex-col items-center justify-center bg-neutral-900 text-neutral-300 py-10 gap-20 small:gap-32"
     >
-      <div className="flex w-full justify-around">
-        <div className="flex flex-col gap-4">
-          <h3 className="flex items-center gap-2 font-bold text-xl tracking-wider">
+      <div className="grid grid-cols-2 small:grid-cols-4 items-center gap-y-6 w-full justify-around">
+        <div className="flex flex-col gap-4 items-center text-left">
+          <h3 className="flex items-center gap-2 font-bold text-lg small:text-xl tracking-wider">
             UBICACIÓN
             <MdLocationOn className="mb-1" />
           </h3>
@@ -35,40 +34,40 @@ const Footer = () => {
                 }
               }}
             >
-              <p>
+              <p className="text-sm small:text-base">
                 Calle Triana 91, <br />
                 Arrecife, Lanzarote,
               </p>
             </a>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
-          <h3 className="flex items-center gap-2 font-bold text-xl tracking-wider">
+        <div className="flex flex-col gap-4 items-center text-left">
+          <h3 className="flex items-center gap-2 font-bold text-lg small:text-xl tracking-wider">
             HORARIO
             <FaRegClock className="mb-1" />
           </h3>
-          <div>
+          <div className="text-sm small:text-base">
             <p>Lunes a Viernes:</p>
             <p>- 7:30 a 15:30</p>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
-          <h3 className="flex items-center gap-2 font-bold text-xl tracking-wider">
+        <div className="flex flex-col gap-4 items-center text-left">
+          <h3 className="flex items-center gap-2 font-bold text-lg small:text-xl tracking-wider">
             TELÉFONO
             <MdOutlinePhoneAndroid className="mb-1" />
           </h3>
-          <div>
+          <div className="text-sm small:text-base">
             <p>+34 912960896</p>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
-          <h3 className="flex items-center gap-2 font-bold text-xl tracking-wider">
+        <div className="flex flex-col gap-4 items-center text-left">
+          <h3 className="flex items-center gap-2 font-bold text-lg small:text-xl tracking-wider">
             SOCIAL
             <BiLike className="mb-1" />
           </h3>
           <div>
             <a
-              className="flex items-center gap-2 hover:text-primary"
+              className="flex items-center gap-2 hover:text-primary text-sm small:text-base"
               target="_blank"
               href="https://www.instagram.com/munchysbypuzzle/"
               onClick={(event) => {
@@ -80,13 +79,13 @@ const Footer = () => {
               }}
             >
               Instagram
-              <GrInstagram className="text-l md:text-xl" />
+              <GrInstagram className="text-l md:text-lg small:text-xl" />
             </a>
           </div>
         </div>
       </div>
 
-      <ul className="flex flex-col items-center text-center gap-5">
+      <ul className="flex flex-col items-center text-center gap-3 small:gap-5 text-sm small:text-base">
         <div className="flex items-center gap-4">
           <Link
             className="hover:underline"
@@ -123,7 +122,7 @@ const Footer = () => {
             target="_blank"
             href="https://personal-virtualfolio.netlify.app/#portfolio"
           >
-            <Image src="/web-develop.png" alt="logo Web Developer" width={100} height={50} layout="relative" />
+            <Image src="/images/web-develop.png" alt="logo Web Developer" width={80} height={50} layout="relative" />
           </a>
         </p>
       </ul>
