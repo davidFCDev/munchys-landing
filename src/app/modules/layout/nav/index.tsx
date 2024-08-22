@@ -27,7 +27,7 @@ const Nav = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-primary z-50 mt-3 w-52 p-2 border-b border-r border-l tracking-wide flex flex-col gap-1 rounded-b-md "
+            className="menu menu-sm dropdown-content z-50 mt-4 w-32 p-2 tracking-wide flex flex-col gap-1 bg-primary border border-white rounded-md"
           >
             <li>
               <Link href="/">Inicio</Link>
@@ -37,6 +37,9 @@ const Nav = () => {
             </li>
             <li>
               <Link href="/menu">Carta</Link>
+            </li>
+            <li>
+              <Link href="/gallery">Galería</Link>
             </li>
             <li>
               <Link href="/contact">Contacto</Link>
@@ -62,6 +65,9 @@ const Nav = () => {
           </li>
           <li>
             <Link href="/menu">Carta</Link>
+          </li>
+          <li>
+            <Link href="/gallery">Galería</Link>
           </li>
           <li>
             <Link href="/contact">Contacto</Link>

@@ -40,7 +40,7 @@ const config: Config = {
         mytheme: {
           primary: "#3596C9",
           secondary: "#FFA400",
-          accent:"#1073B5",
+          accent:"#297198",
           neutral: "#3d4451",
           "base-100": "white",
 

@@ -1,5 +1,5 @@
 import React from "react";
-import './index.css'
+import "./index.css";
 
 const HeroText = () => {
   return (
@@ -14,9 +14,13 @@ const HeroText = () => {
         <span>s</span>
       </h2>
       <p className="text-2xl small:text-3xl italic">Desayunos, brunch y +</p>
-      <button className="border-2 rounded-full px-10 py-3 text-2xl  uppercase font-semibold hover:bg-primary transition">
+      <a
+        href="https://drive.google.com/file/d/1tAd8rx_2ZHXAVq4BbGUm9kgke6-v4F2R/view?usp=sharing"
+        target="_blank"
+        className="border-2 rounded-full px-8 small:px-10 py-2 small:py-3 text-2xl  uppercase font-semibold hover:bg-primary transition"
+      >
         Carta
-      </button>
+      </a>
     </div>
   );
 };
