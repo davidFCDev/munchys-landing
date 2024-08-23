@@ -1,6 +1,6 @@
-'use client'
-import React, { useState } from 'react';
-import Image from 'next/image';
+"use client";
+import React, { useState } from "react";
+import Image from "next/image";
 
 interface ImageProps {
   src: string;
@@ -9,14 +9,14 @@ interface ImageProps {
 
 // Lista de imágenes en la carpeta public/images
 const images: ImageProps[] = [
-  { src: '/images/bolleria.jpg', alt: 'Bolleria' },
-  { src: '/images/tortitas.jpg', alt: 'Bowl' },
-  { src: '/images/cafe.jpg', alt: 'Café' },
-  { src: '/images/palmeras.jpg', alt: 'Palmeras' },
-  { src: '/images/sandwich-cerca2.jpg', alt: 'Sandwich cerca' },
-  { src: '/images/poke.jpg', alt: 'Poke' },
-  { src: '/images/lata-cafe.jpg', alt: 'Lata de café' },
-  { src: '/images/sandwich-vaso.jpg', alt: 'Sandwich' },
+  { src: "/images/bolleria.jpg", alt: "Bolleria" },
+  { src: "/images/tortitas.jpg", alt: "Bowl" },
+  { src: "/images/roll.jpg", alt: "Roll" },
+  { src: "/images/palmeras.jpg", alt: "Palmeras" },
+  { src: "/images/sandwich-cerca2.jpg", alt: "Sandwich cerca" },
+  { src: "/images/poke.jpg", alt: "Poke" },
+  { src: "/images/lata-cafe.jpg", alt: "Lata de café" },
+  { src: "/images/sandwich-vaso.jpg", alt: "Sandwich" },
 ];
 
 const GalleryTemplate: React.FC = () => {
@@ -31,7 +31,7 @@ const GalleryTemplate: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="mx-auto p-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {images.map((image, index) => (
           <div
@@ -42,7 +42,8 @@ const GalleryTemplate: React.FC = () => {
             <Image
               src={image.src}
               alt={image.alt}
-              layout="fill"              objectFit="cover"
+              layout="fill"
+              objectFit="cover"
               className="transition-transform duration-300 ease-in-out transform hover:scale-105"
             />
           </div>
