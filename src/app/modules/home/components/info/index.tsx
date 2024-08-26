@@ -76,7 +76,7 @@ const Info = () => {
   return (
     <div className="w-full flex flex-col gap-10 small:gap-32 items-center px-8 small:px-0 text-neutral-800">
       <Section
-        imageSrc="/images/sandwich-cerca.jpg"
+        imageSrc="/images/sandwich-cerca.webp"
         imageAlt="imagen resumen"
         title="MENÚ"
         subtitle="Fresco y divertido"
@@ -101,7 +101,7 @@ const Info = () => {
       </Section>
 
       <Section
-        imageSrc="/images/poke.jpg"
+        imageSrc="/images/poke.webp"
         imageAlt="imagen resumen"
         title="BRUNCH"
         subtitle="Elige tu combinación favorita"
@@ -116,7 +116,7 @@ const Info = () => {
       </Section>
 
       <Section
-        imageSrc="/images/lata-cafe.jpg"
+        imageSrc="/images/lata-cafe.webp"
         imageAlt="imagen resumen"
         title="CAFÉ"
         subtitle="Especialidades Illy"

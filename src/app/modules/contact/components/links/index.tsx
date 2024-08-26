@@ -40,11 +40,11 @@ const Links: React.FC = () => {
   return (
     <div className="w-full flex flex-col small:flex-row items-center gap-6 small:gap-10 px-6 small:px-10 py-14 small:py-20">
       <LinkCard
-        href="mailto:munchys@gmail.com"
+        href="mailto:munchysbypuzzle@gmail.com"
         title="Email"
         icon={<MdOutlineAlternateEmail />}
         description="Envíanos un correo"
-        subtext="munchys@gmail.com"
+        subtext="munchysbypuzzle@gmail.com"
       />
       <LinkCard
         href="#"

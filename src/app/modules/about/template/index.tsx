@@ -16,7 +16,7 @@ const AboutTemplate = () => {
 
       <div className="relative w-full h-[80vh] my-0 overflow-hidden">
         <Image
-          src="/images/local.jpg"
+          src="/images/local.webp"
           alt="Imagen local"
           layout="fill"
           objectFit="cover"

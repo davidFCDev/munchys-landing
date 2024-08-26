@@ -32,7 +32,7 @@ const Slider = () => {
     >
       <SwiperSlide>
         <Image
-          src="/images/local2.jpg"
+          src="/images/local2.webp"
           alt="hero"
           layout="fill"
           objectFit="cover"
@@ -42,7 +42,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
-          src="/images/local3.jpg"
+          src="/images/local3.webp"
           alt="hero"
           layout="fill"
           objectFit="cover"
@@ -52,7 +52,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
-          src="/images/local4.jpg"
+          src="/images/local4.webp"
           alt="hero"
           layout="fill"
           objectFit="cover"

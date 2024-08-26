@@ -9,14 +9,14 @@ interface ImageProps {
 
 // Lista de imágenes en la carpeta public/images
 const images: ImageProps[] = [
-  { src: "/images/bolleria.jpg", alt: "Bolleria" },
-  { src: "/images/tortitas.jpg", alt: "Bowl" },
-  { src: "/images/roll.jpg", alt: "Roll" },
-  { src: "/images/palmeras.jpg", alt: "Palmeras" },
-  { src: "/images/sandwich-cerca2.jpg", alt: "Sandwich cerca" },
-  { src: "/images/poke.jpg", alt: "Poke" },
-  { src: "/images/lata-cafe.jpg", alt: "Lata de café" },
-  { src: "/images/sandwich-vaso.jpg", alt: "Sandwich" },
+  { src: "/images/bolleria.webp", alt: "Bolleria" },
+  { src: "/images/tortitas.webp", alt: "Bowl" },
+  { src: "/images/roll.webp", alt: "Roll" },
+  { src: "/images/palmeras.webp", alt: "Palmeras" },
+  { src: "/images/sandwich-cerca2.webp", alt: "Sandwich cerca" },
+  { src: "/images/poke.webp", alt: "Poke" },
+  { src: "/images/lata-cafe.webp", alt: "Lata de café" },
+  { src: "/images/sandwich-vaso.webp", alt: "Sandwich" },
 ];
 
 const GalleryTemplate: React.FC = () => {
