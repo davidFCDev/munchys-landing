@@ -12,9 +12,7 @@ const Footer = () => {
   };
 
   return (
-    <div
-      className="w-full flex flex-col items-center justify-center bg-neutral-900 text-neutral-300 py-10 gap-16 small:gap-20"
-    >
+    <div className="w-full flex flex-col items-center justify-center bg-neutral-900 text-neutral-300 py-10 gap-16 small:gap-20">
       <div className="grid grid-cols-2 small:grid-cols-4 items-center gap-y-6 w-full justify-around">
         <div className="flex flex-col gap-2 small:gap-4 items-center text-left">
           <h3 className="flex items-center gap-2 font-bold text-base small:text-xl tracking-wider">
@@ -22,23 +20,10 @@ const Footer = () => {
             <MdLocationOn className="mb-1" />
           </h3>
           <div>
-            <a
-              className="hover:text-primary"
-              target="_blank"
-              href="#"
-              onClick={(event) => {
-                if (!window.confirm("¿Quieres acceder a Ubicación?")) {
-                  event.preventDefault();
-                } else {
-                  handleContactClick();
-                }
-              }}
-            >
-              <p className="text-xs small:text-base">
-                Calle Triana 91, <br />
-                Arrecife, Lanzarote,
-              </p>
-            </a>
+            <p className="text-xs small:text-base">
+              Calle Triana 91, <br />
+              Arrecife, Lanzarote,
+            </p>
           </div>
         </div>
         <div className="flex flex-col gap-2 small:gap-4 items-center text-left">
@@ -91,7 +76,11 @@ const Footer = () => {
             className="hover:underline"
             href={{ pathname: "/legal", hash: "#top" }}
             onClick={(event) => {
-              if (!window.confirm("¿Quieres acceder a Aviso legal y Política de privacidad?")) {
+              if (
+                !window.confirm(
+                  "¿Quieres acceder a Aviso legal y Política de privacidad?"
+                )
+              ) {
                 event.preventDefault();
               } else {
                 handleContactClick();
@@ -107,7 +96,13 @@ const Footer = () => {
             target="_blank"
             href="https://personal-virtualfolio.netlify.app/#portfolio"
           >
-            <Image src="/images/web-develop.png" alt="logo Web Developer" width={80} height={50} layout="relative" />
+            <Image
+              src="/images/web-develop.png"
+              alt="logo Web Developer"
+              width={80}
+              height={50}
+              layout="relative"
+            />
           </a>
         </p>
       </ul>

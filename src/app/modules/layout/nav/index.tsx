@@ -79,7 +79,7 @@ const Nav = () => {
           className="tooltip tooltip-left tooltip-warning p-2"
           data-tip="¡Síguenos!"
         >
-          <a href="#" className="text-4xl">
+          <a href="https://www.instagram.com/munchysbypuzzle/" target="_blank" className="text-4xl">
             <FaInstagram />
           </a>
         </div>
