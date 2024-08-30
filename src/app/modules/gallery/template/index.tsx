@@ -11,12 +11,20 @@ interface ImageProps {
 const images: ImageProps[] = [
   { src: "/images/bolleria.webp", alt: "Bolleria" },
   { src: "/images/tortitas.webp", alt: "Bowl" },
-  { src: "/images/roll.webp", alt: "Roll" },
+  { src: "/images/vinos1.webp", alt: "Vinos frescos" },
   { src: "/images/palmeras.webp", alt: "Palmeras" },
-  { src: "/images/sandwich-cerca2.webp", alt: "Sandwich cerca" },
-  { src: "/images/poke.webp", alt: "Poke" },
+  { src: "/images/sandwich-vaso.webp", alt: "Sandwich cerca" },
+  { src: "/images/vinos2.webp", alt: "Vinos zona" },
   { src: "/images/lata-cafe.webp", alt: "Lata de café" },
-  { src: "/images/sandwich-vaso.webp", alt: "Sandwich" },
+  { src: "/images/roll.webp", alt: "Cinammon roll" },
+  { src: "/images/ensalada3.webp", alt: "Poke arroz" },
+  { src: "/images/brownie.webp", alt: "Brownie chocolate" },
+  { src: "/images/taza-cafe.webp", alt: "Taza de café" },
+  { src: "/images/ensalada1.webp", alt: "Ensalada" },
+  { src: "/images/ensalada2.webp", alt: "Ensalada brotes" },
+  { src: "/images/bowl.webp", alt: "Tortitas" },
+  { src: "/images/poke.webp", alt: "Poke de arroz" },
+  { src: "/images/sandwich-cerca.webp", alt: "Ensalada" },
 ];
 
 const GalleryTemplate: React.FC = () => {

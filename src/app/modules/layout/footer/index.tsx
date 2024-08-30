@@ -42,7 +42,7 @@ const Footer = () => {
             <MdOutlinePhoneAndroid className="mb-1" />
           </h3>
           <div className="text-xs small:text-base">
-            <p>+34 912960896</p>
+            <p>+34 #</p>
           </div>
         </div>
         <div className="flex flex-col gap-2 small:gap-4 items-center text-left">
@@ -99,8 +99,8 @@ const Footer = () => {
             <Image
               src="/images/web-develop.png"
               alt="logo Web Developer"
-              width={80}
-              height={50}
+              width={100}
+              height={100}
               layout="relative"
             />
           </a>

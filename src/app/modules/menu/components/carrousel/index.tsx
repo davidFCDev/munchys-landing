@@ -6,9 +6,9 @@ const Carrousel = () => {
   const [selected, setSelected] = useState<number | null>(null);
 
   const images = [
-    { src: "/images/cafe.webp", label: "Café" },
-    { src: "/images/sandwich.webp", label: "Salados" },
-    { src: "/images/bolleria.webp", label: "Dulces" },
+    { src: "/images/taza-cafe.webp", label: "Café" },
+    { src: "/images/palmeras.webp", label: "Dulces" },
+    { src: "/images/sandwich-cerca.webp", label: "Salados" },
   ];
   return (
     <>

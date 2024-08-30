@@ -51,7 +51,7 @@ const Links: React.FC = () => {
         title="Teléfono"
         icon={<MdPhoneAndroid />}
         description="Llámanos"
-        subtext="666123456"
+        subtext="#"
       />
       <LinkCard
         href="https://www.instagram.com/munchysbypuzzle/"
