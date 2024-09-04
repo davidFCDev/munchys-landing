@@ -5,7 +5,7 @@ export const LegalAdvice = () => {
     <div className="flex flex-col gap-6">
       <p>
         <strong>1.</strong> Los derechos de propiedad intelectual de la web
-        www.munchys.com, su código fuente, diseño, estructura de navegación,
+        www.munchysbypuzzle.com, su código fuente, diseño, estructura de navegación,
         bases de datos y los distintos elementos en él contenidos son
         titularidad de Ramón, a quien corresponde el ejercicio exclusivo de los
         derechos de explotación de los mismos en cualquier forma y, en especial,
@@ -20,7 +20,7 @@ export const LegalAdvice = () => {
       </p>
 
       <ul>
-        <li>- Que sea compatible con los fines de la web www.munchys.com</li>
+        <li>- Que sea compatible con los fines de la web www.munchysbypuzzle.com</li>
         <li>
           - Que se realice con el exclusivo ánimo de obtener la información
           contenida para uso personal y privado. Se prohíbe expresamente su
@@ -95,7 +95,7 @@ export const LegalAdvice = () => {
       </p>
 
       <p>
-        <strong>9.</strong> Las imágenes utilizadas en www.munchys.com son
+        <strong>9.</strong> Las imágenes utilizadas en www.munchysbypuzzle.com son
         originales o no tienen derechos de autor.
       </p>
     </div>

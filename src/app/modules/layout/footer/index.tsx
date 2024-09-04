@@ -42,7 +42,7 @@ const Footer = () => {
             <MdOutlinePhoneAndroid className="mb-1" />
           </h3>
           <div className="text-xs small:text-base">
-            <p>+34 #</p>
+            <p>+34 667099593</p>
           </div>
         </div>
         <div className="flex flex-col gap-2 small:gap-4 items-center text-left">

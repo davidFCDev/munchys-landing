@@ -47,11 +47,11 @@ const Links: React.FC = () => {
         subtext="munchysbypuzzle@gmail.com"
       />
       <LinkCard
-        href="#"
+        href="tel:+34667099593"
         title="Teléfono"
         icon={<MdPhoneAndroid />}
         description="Llámanos"
-        subtext="#"
+        subtext="+34 667099593"
       />
       <LinkCard
         href="https://www.instagram.com/munchysbypuzzle/"

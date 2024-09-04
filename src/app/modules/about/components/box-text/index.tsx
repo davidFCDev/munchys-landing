@@ -8,14 +8,18 @@ const BoxText = () => {
         <span className="text-primary">Munchys</span> Arrecife
       </h3>
       <p className="small:leading-loose font-light text-xs small:text-base">
-        Puzzle nació como un rompecabezas gastronómico, donde cada pieza
-        encajaba a la perfección para logar una experiencia única, canalla y
-        divertida.
+        Puzzle nació en Madrid como un rompecabezas gastronómico para ofrecer
+        una experiencia única y divertida.
       </p>
       <p className="small:leading-loose font-light text-xs small:text-base">
-        Lo que comenzó en Puzzle, continúa ahora en Munchys en su versión de
-        desayunos y brunch. Sin dejar de lado un estilo desenfadado, pero
-        cuidando al máximo cada detalle y la calidad de todos nuestros productos.
+        Con el tiempo nos dimos cuenta de que le faltaba una pieza a nuestro
+        puzzle, un entorno relajado y paradisiaco como el que ofrece esta bella
+        isla.
+      </p>
+      <p className="small:leading-loose font-light text-xs small:text-base">
+        Hemos querido exprimir cada rayito de sol y nos hemos pasado a los
+        desayunos y brunch, para que empieces bien tu dia (eso sí, sin dejar
+        atrás el buen vino).
       </p>
     </div>
   );

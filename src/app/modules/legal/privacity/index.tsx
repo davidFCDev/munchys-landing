@@ -69,7 +69,7 @@ export const Privacity = () => {
         <li>Responsable:</li>
         <li>Identidad: Agustín Ramón Cádiz Vila</li>
         <li>DNI: 78553190W</li>
-        <li>Correo electrónico: munchys@gmail.com</li>
+        <li>Correo electrónico: munchysbypuzzle@gmail.com</li>
       </ul>
 
       <p className="font-light">
